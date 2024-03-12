@@ -20,7 +20,7 @@ jobs:
       - name: Git fetch tags
         run: git fetch --tags origin
 
-      - uses: pnpm/action-setup@v2
+      - uses: pnpm/action-setup@v3
         with:
           version: 8.6.10
 
