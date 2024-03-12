@@ -59,7 +59,7 @@
     "eslint-plugin-node": "11.1.0",
     "graphql": "16.8.0",
     "graphql-tag": "2.12.6",
-    "jose": "4.14.4",
+    "jose": "4.15.5",
     "jsdom": "22.1.0",
     "lodash-es": "4.17.21",
     "modern-errors": "6.0.0",
