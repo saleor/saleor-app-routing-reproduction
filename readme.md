@@ -9,7 +9,7 @@ For example, most of our apps have `appUrl: /config` and when you open the app, 
 1. Open the app
 2. Notice the URL.
 
-(Screenshot)
+<img width="596" alt="Screenshot 2024-03-12 at 12 41 53" src="https://github.com/mmiszy/saleor-routing-app-example/assets/1338731/1d6949ce-93c7-4d76-af2d-8a6b66324cbb">
 
 #### 2. If your app has a link to "self" (i.e. the same address you're currently on), clicking on it changes the URL to what it was supposed to be in the first place.
 
@@ -19,7 +19,7 @@ For example, most of our apps have `appUrl: /config` and when you open the app, 
 2. Click "Go to self"
 3. Notice how the dashboard URL was now updated even though the app URL didn't change.
 
-(Video)
+https://github.com/mmiszy/saleor-routing-app-example/assets/1338731/7121334a-a789-429e-ab13-9775c1acad40
 
 #### 3. Refreshing the website now results in a 404 error because the iFrame URL is set to `https://appurl.com/config/config` (notice double `/config`).
 
