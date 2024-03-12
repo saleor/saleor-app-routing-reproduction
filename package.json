@@ -1,15 +1,9 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
-  "name": "saleor-app-payment-template",
+  "name": "app-saleor-routing-bug",
   "description": "Saleor App Payment Template",
   "version": "0.0.0",
   "private": true,
-  "repository": "github:saleor/saleor-app-payment-template",
-  "homepage": "https://github.com/saleor/saleor-app-payment-template",
-  "bugs": {
-    "url": "https://github.com/saleor/saleor-app-payment-template/issues",
-    "email": "hello@saleor.io"
-  },
   "type": "module",
   "scripts": {
     "dev": "next dev",
