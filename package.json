@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "saleor-app-payment-template",
+  "description": "Saleor App Payment Template",
+  "version": "0.0.0",
+  "private": true,
+  "repository": "github:saleor/saleor-app-payment-template",
+  "homepage": "https://github.com/saleor/saleor-app-payment-template",
+  "bugs": {
+    "url": "https://github.com/saleor/saleor-app-payment-template/issues",
+    "email": "hello@saleor.io"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint --fix --dir src",
+    "lint:ci": "next lint --dir src",
+    "ts-node-esm": "node --loader ts-node/esm --experimental-specifier-resolution=node",
+    "prepare": "husky install"
+  },
+  "saleor": {
+    "schemaVersion": "3.15"
+  },
+  "dependencies": {
+    "@next/env": "13.4.19",
+    "@saleor/app-sdk": "0.43.0",
+    "@saleor/macaw-ui": "1.0.0-pre.21",
+    "@t3-oss/env-nextjs": "0.8.0",
+    "eslint-plugin-node": "11.1.0",
+    "next": "14.1.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tsx": "3.12.7",
+    "zod": "3.22.4"
+  },
+  "devDependencies": {
+    "@saleor/eslint-plugin-saleor-app": "0.1.2",
+    "@types/node": "20.5.4",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "@typescript-eslint/eslint-plugin": "6.4.1",
+    "@typescript-eslint/parser": "6.4.1",
+    "@vanilla-extract/vite-plugin": "3.9.0",
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.19",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-import": "2.28.1",
+    "eslint-plugin-require-form-method": "1.0.2",
+    "eslint-plugin-testing-library": "6.0.0",
+    "eslint-plugin-vitest": "0.2.8",
+    "husky": "8.0.3",
+    "lint-staged": "14.0.1",
+    "pino": "8.19.0",
+    "prettier": "3.0.2",
+    "ts-node": "10.9.1",
+    "typescript": "5.1.6",
+    "webpack": "5.90.3"
+  },
+  "engines": {
+    "npm": ">=9.0.0",
+    "node": "^20.0.0",
+    "pnpm": "^8.14.0"
+  },
+  "packageManager": "pnpm@8.14.2"
+}
