@@ -3,6 +3,7 @@
   "name": "app-saleor-routing-bug",
   "description": "Saleor App Payment Template",
   "version": "0.0.0",
+  "license": "(BSD-3-Clause AND CC-BY-4.0)",
   "private": true,
   "type": "module",
   "scripts": {
